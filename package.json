@@ -1,0 +1,24 @@
+{
+  "name": "reverseproxy",
+  "version": "1.0.0",
+  "description": "reverseProxy",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebloc/reverseProxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebloc/reverseProxy/issues"
+  },
+  "homepage": "https://github.com/ebloc/reverseProxy#readme",
+  "dependencies": {
+    "express": "^4.17.0",
+    "http-proxy-middleware": "^0.19.1"
+  }
+}
